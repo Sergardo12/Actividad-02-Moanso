@@ -6,5 +6,6 @@ namespace Ejercicio_04
         {
             InitializeComponent();
         }
+
     }
 }
