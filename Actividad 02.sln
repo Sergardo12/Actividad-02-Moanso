@@ -5,7 +5,7 @@ VisualStudioVersion = 17.11.35208.52
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio 04", "Ejercicio 04\Ejercicio 04.csproj", "{7084A1A2-9D15-46EC-9FB8-7EF44AB0A878}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio 07", "Ejercicio 07\Ejercicio 07.csproj", "{4E254F9A-511B-42C4-9F96-D03B07240FE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio07", "Ejercicio 07\Ejercicio07.csproj", "{4E254F9A-511B-42C4-9F96-D03B07240FE7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio06", "WindowsFormsApp1\Ejercicio06.csproj", "{3B374C1A-A17E-4CBF-BD3D-77516C3FF5CD}"
 EndProject

@@ -1,4 +1,4 @@
-using UPNAlumnosApp;
+using ConsultaPromediosUPN;
 
 namespace Ejercicio_07
 {
