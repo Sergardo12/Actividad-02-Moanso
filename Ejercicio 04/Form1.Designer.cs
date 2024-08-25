@@ -31,13 +31,15 @@
             button1 = new Button();
             label1 = new Label();
             label2 = new Label();
+            label3 = new Label();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.Location = new Point(241, 132);
+            button1.Location = new Point(211, 99);
+            button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
-            button1.Size = new Size(94, 29);
+            button1.Size = new Size(82, 22);
             button1.TabIndex = 0;
             button1.Text = "button1";
             button1.UseVisualStyleBackColor = true;
@@ -55,20 +57,31 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(514, 135);
+            label2.Location = new Point(450, 101);
             label2.Name = "label2";
-            label2.Size = new Size(50, 20);
+            label2.Size = new Size(38, 15);
             label2.TabIndex = 2;
             label2.Text = "label2";
             // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(395, 233);
+            label3.Name = "label3";
+            label3.Size = new Size(45, 15);
+            label3.TabIndex = 3;
+            label3.Text = "Angelo";
+            // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(700, 338);
+            Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(button1);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -80,5 +93,6 @@
         private Button button1;
         private Label label1;
         private Label label2;
+        private Label label3;
     }
 }
