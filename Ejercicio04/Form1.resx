@@ -117,11 +117,11 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Como desarrollador, debes crear una aplicación para registrar participantes en un taller
-de desarrollo personal. La aplicación debe permitir a los usuarios ingresar su nombre y 
-correo electrónico. Sin embargo, antes de enviar el formulario, los usuarios deben aceptar 
-los términos y condiciones marcando un checkbox. 
-</value>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Somos parte del equipo de tecnologia y comunicacion del Museo Larco, ubicado en Lima, Perú. 
+Necesitamos revisar el grado de satisfacción de los clientes de la ultima semana, la encuesta permitirá 
+a los visitantes proporcionar su nombre, DNI y seleccionar su nivel de satisfacción 
+con la visita al museo. La aplicación debe asegurar que los visitantes ingresen su nombre 
+y correo electrónico, y seleccionen su nivel de satisfacción antes de enviar sus respuestas.</value>
   </data>
 </root>
