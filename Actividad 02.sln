@@ -11,7 +11,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio06", "WindowsForms
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio04", "Ejercicio04\Ejercicio04.csproj", "{7637B7A5-BF2D-4676-87EB-BE631DB23572}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio01", "Ejercicio01\Ejercicio01.csproj", "{F0C34653-5DF6-4E0B-B13C-31563D0724B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio01", "Ejercicio01\Ejercicio01.csproj", "{F0C34653-5DF6-4E0B-B13C-31563D0724B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio02", "Ejercicio2\Ejercicio02.csproj", "{02BAA070-D4BB-4351-96F4-B18C20627B49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio08", "Ejercicio 08\Ejercicio08.csproj", "{89A5CE35-2D17-4A51-B172-ED094829937C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{F0C34653-5DF6-4E0B-B13C-31563D0724B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0C34653-5DF6-4E0B-B13C-31563D0724B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F0C34653-5DF6-4E0B-B13C-31563D0724B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02BAA070-D4BB-4351-96F4-B18C20627B49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02BAA070-D4BB-4351-96F4-B18C20627B49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02BAA070-D4BB-4351-96F4-B18C20627B49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02BAA070-D4BB-4351-96F4-B18C20627B49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89A5CE35-2D17-4A51-B172-ED094829937C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A5CE35-2D17-4A51-B172-ED094829937C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A5CE35-2D17-4A51-B172-ED094829937C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A5CE35-2D17-4A51-B172-ED094829937C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
