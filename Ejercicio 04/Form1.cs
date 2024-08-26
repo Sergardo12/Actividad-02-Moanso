@@ -16,29 +16,29 @@ namespace Ejercicio_04
 
         private void btnEnviar_Click(object sender, EventArgs e)
         {
-           
+
             if (cbxTérminos.Checked)
             {
                 if (!string.IsNullOrWhiteSpace(txtNombre.Text) && !string.IsNullOrWhiteSpace(txtCorreo.Text)) //Si esta rellenado
                 {
                     if (validarCorreo(txtCorreo.Text))
 
-                       {
-                            cbxTérminos.Enabled = false;
-                            // Procesar datos de registro
-                            string nombre = txtNombre.Text;
-                            string correo = txtCorreo.Text;
-                            // Código para enviar datos
-                            MessageBox.Show("Datos ingresados correctamente");
-                            txtNombre.Text = "";
-                            txtCorreo.Text = "";
-                            cbxTérminos.Checked = false;
-                            cbxTérminos.Enabled = true;
+                    {
+                        cbxTérminos.Enabled = false;
+                        // Procesar datos de registro
+                        string nombre = txtNombre.Text;
+                        string correo = txtCorreo.Text;
+                        // Código para enviar datos
+                        MessageBox.Show("Datos ingresados correctamente");
+                        txtNombre.Text = "";
+                        txtCorreo.Text = "";
+                        cbxTérminos.Checked = false;
+                        cbxTérminos.Enabled = true;
                     }
                     else
                     {
                         MessageBox.Show("Ingrese un correo válido");
-                    }   
+                    }
                 }
                 else
                 {
@@ -51,7 +51,7 @@ namespace Ejercicio_04
             }
         }
 
-        private bool validarCorreo( string correo)
+        private bool validarCorreo(string correo)
         {
             try
             {
@@ -63,6 +63,10 @@ namespace Ejercicio_04
                 return false;
             }
         }
-        
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

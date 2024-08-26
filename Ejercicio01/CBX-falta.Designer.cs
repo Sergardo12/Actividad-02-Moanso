@@ -1,6 +1,6 @@
 ﻿namespace InscripcionTalleres
 {
-    partial class Form1
+    partial class CBX
     {
         private System.ComponentModel.IContainer components = null;
 
@@ -25,7 +25,6 @@
             buttonLimpiar = new Button();
             label1 = new Label();
             label2 = new Label();
-            label3 = new Label();
             SuspendLayout();
             // 
             // labelNombre
@@ -128,19 +127,9 @@
             label2.Text = "Crear una aplicación en Windows Form, \r\nen la que los estudiantes puedan registrarse\r\n en un taller con su nombre y código";
             label2.Click += label2_Click;
             // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Location = new Point(42, 30);
-            label3.Name = "label3";
-            label3.Size = new Size(38, 15);
-            label3.TabIndex = 10;
-            label3.Text = "label3";
-            // 
-            // Form1
+            // CBX
             // 
             ClientSize = new Size(487, 347);
-            Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(buttonLimpiar);
@@ -151,8 +140,9 @@
             Controls.Add(labelTaller);
             Controls.Add(labelCodigo);
             Controls.Add(labelNombre);
-            Name = "Form1";
+            Name = "CBX";
             Text = "Inscripción a Talleres";
+            Load += CBX_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -167,6 +157,5 @@
         private System.Windows.Forms.Button buttonLimpiar;
         private Label label1;
         private Label label2;
-        private Label label3;
     }
 }
