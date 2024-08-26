@@ -98,6 +98,7 @@
             this.btnEjer06.TabIndex = 5;
             this.btnEjer06.Text = "EJERCICIO 06";
             this.btnEjer06.UseVisualStyleBackColor = true;
+            this.btnEjer06.Click += new System.EventHandler(this.btnEjer06_Click);
             // 
             // btnEjer05
             // 

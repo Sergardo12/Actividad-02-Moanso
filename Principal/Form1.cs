@@ -19,7 +19,12 @@ namespace Principal
 
         private void btnEjer01_Click(object sender, EventArgs e)
         {
-           InscripcionTalleres.Form1 form1 = new InscripcionTalleres.Form1();
+
+        }
+
+        private void btnEjer06_Click(object sender, EventArgs e)
+        {
+            WindowsFormsApp1.Form1 form6 = new WindowsFormsApp1.Form1();
         }
     }
 }
