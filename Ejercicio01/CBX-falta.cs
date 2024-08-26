@@ -4,9 +4,9 @@ using System.Windows.Forms;
 
 namespace InscripcionTalleres
 {
-    public partial class Form1 : Form
+    public partial class CBX : Form
     {
-        public Form1()
+        public CBX()
         {
             InitializeComponent();
             // Llenar el ComboBox con los talleres disponibles
@@ -44,6 +44,11 @@ namespace InscripcionTalleres
         }
 
         private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CBX_Load(object sender, EventArgs e)
         {
 
         }

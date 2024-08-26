@@ -1,6 +1,6 @@
 ﻿namespace Ejercicio04
 {
-    partial class Form1
+    partial class Ejercicio04
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ejercicio04));
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
@@ -47,9 +47,9 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 18F);
             label1.ForeColor = Color.CornflowerBlue;
-            label1.Location = new Point(284, 38);
+            label1.Location = new Point(248, 28);
             label1.Name = "label1";
-            label1.Size = new Size(337, 41);
+            label1.Size = new Size(271, 32);
             label1.TabIndex = 0;
             label1.Text = "Encuesta de satisfacción";
             // 
@@ -57,26 +57,27 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 12F);
-            label2.Location = new Point(15, 122);
+            label2.Location = new Point(13, 92);
             label2.Name = "label2";
-            label2.Size = new Size(895, 140);
+            label2.Size = new Size(716, 105);
             label2.TabIndex = 1;
             label2.Text = resources.GetString("label2.Text");
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(87, 337);
+            label3.Location = new Point(76, 253);
             label3.Name = "label3";
-            label3.Size = new Size(71, 20);
+            label3.Size = new Size(57, 15);
             label3.TabIndex = 2;
             label3.Text = "Nombre: ";
             // 
             // btnEnviar
             // 
-            btnEnviar.Location = new Point(355, 453);
+            btnEnviar.Location = new Point(311, 340);
+            btnEnviar.Margin = new Padding(3, 2, 3, 2);
             btnEnviar.Name = "btnEnviar";
-            btnEnviar.Size = new Size(155, 48);
+            btnEnviar.Size = new Size(136, 36);
             btnEnviar.TabIndex = 3;
             btnEnviar.Text = "Enviar";
             btnEnviar.UseVisualStyleBackColor = true;
@@ -84,33 +85,36 @@
             // 
             // txtNombre
             // 
-            txtNombre.Location = new Point(181, 334);
+            txtNombre.Location = new Point(158, 250);
+            txtNombre.Margin = new Padding(3, 2, 3, 2);
             txtNombre.Name = "txtNombre";
-            txtNombre.Size = new Size(221, 27);
+            txtNombre.Size = new Size(194, 23);
             txtNombre.TabIndex = 4;
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(449, 337);
+            label4.Location = new Point(393, 253);
             label4.Name = "label4";
-            label4.Size = new Size(38, 20);
+            label4.Size = new Size(30, 15);
             label4.TabIndex = 5;
             label4.Text = "DNI:";
             // 
             // txtDNI
             // 
-            txtDNI.Location = new Point(493, 334);
+            txtDNI.Location = new Point(431, 250);
+            txtDNI.Margin = new Padding(3, 2, 3, 2);
             txtDNI.Name = "txtDNI";
-            txtDNI.Size = new Size(221, 27);
+            txtDNI.Size = new Size(194, 23);
             txtDNI.TabIndex = 6;
             // 
             // rbtnPesima
             // 
             rbtnPesima.AutoSize = true;
-            rbtnPesima.Location = new Point(166, 397);
+            rbtnPesima.Location = new Point(145, 298);
+            rbtnPesima.Margin = new Padding(3, 2, 3, 2);
             rbtnPesima.Name = "rbtnPesima";
-            rbtnPesima.Size = new Size(76, 24);
+            rbtnPesima.Size = new Size(63, 19);
             rbtnPesima.TabIndex = 7;
             rbtnPesima.TabStop = true;
             rbtnPesima.Text = "Pésima";
@@ -119,9 +123,10 @@
             // rbtnNormal
             // 
             rbtnNormal.AutoSize = true;
-            rbtnNormal.Location = new Point(318, 397);
+            rbtnNormal.Location = new Point(278, 298);
+            rbtnNormal.Margin = new Padding(3, 2, 3, 2);
             rbtnNormal.Name = "rbtnNormal";
-            rbtnNormal.Size = new Size(80, 24);
+            rbtnNormal.Size = new Size(65, 19);
             rbtnNormal.TabIndex = 8;
             rbtnNormal.TabStop = true;
             rbtnNormal.Text = "Normal";
@@ -130,9 +135,10 @@
             // rbtnBuena
             // 
             rbtnBuena.AutoSize = true;
-            rbtnBuena.Location = new Point(459, 397);
+            rbtnBuena.Location = new Point(402, 298);
+            rbtnBuena.Margin = new Padding(3, 2, 3, 2);
             rbtnBuena.Name = "rbtnBuena";
-            rbtnBuena.Size = new Size(71, 24);
+            rbtnBuena.Size = new Size(58, 19);
             rbtnBuena.TabIndex = 9;
             rbtnBuena.TabStop = true;
             rbtnBuena.Text = "Buena";
@@ -141,19 +147,20 @@
             // rbtnMuyBuena
             // 
             rbtnMuyBuena.AutoSize = true;
-            rbtnMuyBuena.Location = new Point(581, 397);
+            rbtnMuyBuena.Location = new Point(508, 298);
+            rbtnMuyBuena.Margin = new Padding(3, 2, 3, 2);
             rbtnMuyBuena.Name = "rbtnMuyBuena";
-            rbtnMuyBuena.Size = new Size(103, 24);
+            rbtnMuyBuena.Size = new Size(85, 19);
             rbtnMuyBuena.TabIndex = 10;
             rbtnMuyBuena.TabStop = true;
             rbtnMuyBuena.Text = "Muy buena";
             rbtnMuyBuena.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // Ejercicio04
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(922, 568);
+            ClientSize = new Size(807, 426);
             Controls.Add(rbtnMuyBuena);
             Controls.Add(rbtnBuena);
             Controls.Add(rbtnNormal);
@@ -165,7 +172,8 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
-            Name = "Form1";
+            Margin = new Padding(3, 2, 3, 2);
+            Name = "Ejercicio04";
             Text = "Form1";
             ResumeLayout(false);
             PerformLayout();

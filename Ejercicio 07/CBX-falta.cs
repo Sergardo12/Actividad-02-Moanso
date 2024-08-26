@@ -4,12 +4,12 @@ using System.Windows.Forms;
 
 namespace ConsultaPromediosUPN
 {
-    public partial class Form1 : Form
+    public partial class CBX : Form
     {
         // Diccionario para almacenar los promedios de los alumnos por curso
         private Dictionary<string, Dictionary<string, int>> promediosPorCurso;
 
-        public Form1()
+        public CBX()
         {
             InitializeComponent();
 
