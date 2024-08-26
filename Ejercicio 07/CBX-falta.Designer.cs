@@ -1,6 +1,6 @@
 ﻿namespace ConsultaPromediosUPN
 {
-    partial class Form1
+    partial class CBX
     {
         private System.ComponentModel.IContainer components = null;
         private Label lblCursos;
