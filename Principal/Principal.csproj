@@ -80,6 +80,34 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Ejercicio 08\Ejercicio08.csproj">
+      <Project>{89a5ce35-2d17-4a51-b172-ed094829937c}</Project>
+      <Name>Ejercicio08</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ejercicio01CBX\Ejercicio01.csproj">
+      <Project>{db3ee780-a44d-4afe-9284-1c38450d62ed}</Project>
+      <Name>Ejercicio01</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ejercicio02\Ejercicio05.csproj">
+      <Project>{1fe615e5-5712-4693-b367-ca8d2cbf59cb}</Project>
+      <Name>Ejercicio05</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ejercicio03\Ejercicio03.csproj">
+      <Project>{4c0b2cfe-5abb-4144-9271-369e1fbc1f83}</Project>
+      <Name>Ejercicio03</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ejercicio04RB\Ejercicio04.csproj">
+      <Project>{14cdd5b4-a1ba-445d-bee1-623d1cc325a5}</Project>
+      <Name>Ejercicio04</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ejercicio07cbx\Ejercicio07.csproj">
+      <Project>{025a9a2d-a60f-4aad-84cb-d3c025de04e8}</Project>
+      <Name>Ejercicio07</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ejercicio2\Ejercicio02.csproj">
+      <Project>{02baa070-d4bb-4351-96f4-b18c20627b49}</Project>
+      <Name>Ejercicio02</Name>
+    </ProjectReference>
     <ProjectReference Include="..\WindowsFormsApp1\Ejercicio06.csproj">
       <Project>{3b374c1a-a17e-4cbf-bd3d-77516c3ff5cd}</Project>
       <Name>Ejercicio06</Name>

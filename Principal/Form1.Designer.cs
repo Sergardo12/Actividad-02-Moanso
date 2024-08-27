@@ -71,6 +71,7 @@
             this.btnEjer02.TabIndex = 2;
             this.btnEjer02.Text = "EJERCICIO 02";
             this.btnEjer02.UseVisualStyleBackColor = true;
+            this.btnEjer02.Click += new System.EventHandler(this.btnEjer02_Click);
             // 
             // btnEjer03
             // 
@@ -80,6 +81,7 @@
             this.btnEjer03.TabIndex = 3;
             this.btnEjer03.Text = "EJERCICIO 03";
             this.btnEjer03.UseVisualStyleBackColor = true;
+            this.btnEjer03.Click += new System.EventHandler(this.btnEjer03_Click);
             // 
             // btnEjer04
             // 
@@ -89,6 +91,7 @@
             this.btnEjer04.TabIndex = 4;
             this.btnEjer04.Text = "EJERCICIO 04";
             this.btnEjer04.UseVisualStyleBackColor = true;
+            this.btnEjer04.Click += new System.EventHandler(this.btnEjer04_Click);
             // 
             // btnEjer06
             // 
@@ -108,6 +111,7 @@
             this.btnEjer05.TabIndex = 6;
             this.btnEjer05.Text = "EJERCICIO 05";
             this.btnEjer05.UseVisualStyleBackColor = true;
+            this.btnEjer05.Click += new System.EventHandler(this.btnEjer05_Click);
             // 
             // btnEjer07
             // 
@@ -117,6 +121,7 @@
             this.btnEjer07.TabIndex = 7;
             this.btnEjer07.Text = "EJERCICIO 07";
             this.btnEjer07.UseVisualStyleBackColor = true;
+            this.btnEjer07.Click += new System.EventHandler(this.btnEjer07_Click);
             // 
             // btnEjer08
             // 
@@ -126,6 +131,7 @@
             this.btnEjer08.TabIndex = 8;
             this.btnEjer08.Text = "EJERCICIO 08";
             this.btnEjer08.UseVisualStyleBackColor = true;
+            this.btnEjer08.Click += new System.EventHandler(this.btnEjer08_Click);
             // 
             // btnCerrar
             // 
@@ -137,6 +143,7 @@
             this.btnCerrar.TabIndex = 9;
             this.btnCerrar.Text = "Cerrar";
             this.btnCerrar.UseVisualStyleBackColor = false;
+            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
             // FormPrincipal
             // 
