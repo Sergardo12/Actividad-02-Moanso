@@ -11,7 +11,7 @@ namespace Ejercicio_08
     {
         public static SqlConnection SQLConexion()
         {
-            SqlConnection conexion = new SqlConnection("Data Source=LAPTOP-T5N3M8LK;Initial Catalog=bdFerreteria2;Integrated Security=True");
+            SqlConnection conexion = new SqlConnection("Data Source=LAPTOP-T5N3M8LK;Initial Catalog=empresa;Integrated Security=True");
             conexion.Open();
             return conexion;
         }
