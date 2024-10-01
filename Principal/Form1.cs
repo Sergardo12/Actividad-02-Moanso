@@ -32,7 +32,7 @@ namespace Principal
         private void btnEjer03_Click(object sender, EventArgs e)
         {
             Ejercicio03.CXB ejercicio03 = new Ejercicio03.CXB();
-            ejercicio03.ShowDialog();
+            ejercicio03.Show(); 
         }
 
         private void btnEjer04_Click(object sender, EventArgs e)
